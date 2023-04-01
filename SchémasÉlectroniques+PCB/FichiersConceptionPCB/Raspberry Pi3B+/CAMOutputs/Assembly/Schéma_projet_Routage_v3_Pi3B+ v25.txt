@@ -1,0 +1,8 @@
+Partlist exported from Hub Team: 3S4   Projet: Admin Project Circuit imprimé: Schéma_projet_Routage_v3_Pi3B+ v25 at 18/03/2023 10:59
+
+Qty Value                   Device                  Package                        Parts      Description               MANUFACTURER MAXIMUM_PACKAGE_HEIGHT PARTREV POPULARITY SNAPEDA_PN              SPICEPREFIX STANDARD                    
+3   4.7k                    R-EU_R0603              R0603                          R6, R7, R8 RESISTOR, European symbol                                             70                                 R                                       
+1   DFR0753                 DFR0753                 DFR0753                        U$11                                                                                                                                                        
+1   DS18B20                 DS18B20                 DS18B20                        U$8                                                                                                                                                         
+1   MS5837                  MS5837                  MS5837                         U$9                                                                                                                                                         
+1   RASPBERRY_PI_3_MODEL_B+ RASPBERRY_PI_3_MODEL_B+ MODULE_RASPBERRY_PI_3_MODEL_B+ U1                                   Raspberry Pi 16 mm                  N/A                RASPBERRY PI 3 MODEL B+             Manufacturer Recommendations

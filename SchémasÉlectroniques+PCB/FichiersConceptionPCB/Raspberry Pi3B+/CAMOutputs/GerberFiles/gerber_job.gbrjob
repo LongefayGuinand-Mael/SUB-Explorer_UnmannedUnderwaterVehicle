@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2023-03-18T09:59:53Z",
+        "GenerationSoftware": {
+            "Application": "Fusion 360 Electronics",
+            "Vendor": "Autodesk",
+            "Version": "9.7.0"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "Schéma_projet_Routage_v3_Pi3B+ v25"
+        },
+        "Owner": "Mael LONGEFAY-GUINAND <mael.longefay-guinand@esme.fr>",
+        "Size": {
+            "X": 66.46875,
+            "Y": 57.5
+        }
+    }
+}
