@@ -107,7 +107,7 @@ Nous avons 2 types de moteurs :
 - 4 moteurs pas-à-pas **17HS08-1004S** commandé à l'aide d'un driver moteur **A4988-1182** par la Raspberry Pi 4B.
 - 1 moteur à courant continu de la marque **lichifit** (utilisé dans le modélisme naval) commandé à l'aide d'un driver moteur **DRV8838** également par la Raspberry Pi 4B.
 
-Les moteurs pas-à-pas seront utilisé pour des mouvements plus précis tels que les mouvements translatifs lattéraux et de profondeur et pour les mouvement rotatifs (lacet et tangage).    
+Les moteurs pas-à-pas seront utilisés pour des mouvements plus précis tels que les mouvements translatifs lattéraux et de profondeur et pour les mouvement rotatifs (lacet et tangage).    
 Le moteur à courant continu sera quant-à lui utilisé uniquement pour la translation avant-arrière et sera notre propulseur principal.
 
 ### Composants ayant un lien avec la récupération de données (capteurs) :
