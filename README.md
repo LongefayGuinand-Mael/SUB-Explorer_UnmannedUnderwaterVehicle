@@ -67,10 +67,30 @@ son déplacement dans l’espace et des éléments scientifiques qu’il embarqu
 
 ## Choix des Composants :
 *Toutes les datasheets des composants utilisés sont regroupées dans les fichiers du projet dans le dossier `/DatasheetsComposents`. Leurs noms étants : `SchémaÉlectroniqueRaspPi4B.png` et  `SchémaÉlectroniqueRaspPi3B+.png`.*
+
 ### Intelligences Numériques :
+Nous utilisons dans ce projet 2 Raspberry Pi.   
+- La première est une **Rasberry Pi 4B (de 4 à 8 Go RAM)**. Cette Raspberry Pi nous permet la réception des données envoyées par la télécommande et donc par l'utilisateur afin de contrôler les moteurs et l'allumage ou non des LED qu'il embarque.   
+- La seconde est une **Raspberry Pi 3B+**. Cette Raspberry Pi, quant-à elle, nous permet d'éberger un WebServeur local afin d'avoir un retour caméra et capteurs (afin de connaître, même si nous ne voyons plus le drone depuis la surface, de connaître l'environnement dans lequel il est).
+
 ### Caméra Embarquée :
+Comme dit plus haut, nous avons besoin de savoir consatemment l'environnement du drone même lorsque celui-ci n'est pas visible depuis la surface. Ainsi, nous utilisons une caméra embarquée dans le drone. Par soucis de simplicité et surtout de qualité, nous avons choisi de prendre la **Camera Module V2 Raspberry** (existe maintenant également avec un autofocus). Cette caméra embarqué nous permet d'avoir une excélente qualité (1280x720 pixel) avec un haut débit (jusqu'à 24 fps) et puis elle est nativement supportée par la Rasberry Pi 3B+ qui va l'utiliser et envoyer son stream vidéo sur le WebServeur qu'elle host.
+
 ### Récepteur Radio + Télécommande :
+Dans notre projet, nous avons eu la volonté de contrôler notre drone à distance en imaginant un moyen d'éviter d'avoir un drone qui embarque un enrouleur de câble pour pouvoir communiquer avec l'utilisateur via ce qui s'apparente à un câble d'Arianne. Ainsi, nous avons choisi de mettre en place ce câble d'Arianne entre notre sous-marin et un flotteur. Ce flotteur pourra ainsi embarquer 2 antennes. L'une étant l'antenne radio (2.4GHz) et l'autre une antenne WiFi (dont nous reparlerons plus tard).
+
+Nous avons donc prit un récepteur radio **FS-IA6B**. Ce récepteur 2.4GHz (fréquence laissée libre pour la science et d'autres recherche) va nous servirà communiquer avec notre sous-marin. En plus de ce récepteur, nous avons une télécommande FlySky (utilisée dans le modélisme et qui convient très bien à notre projet pour le moment). 
+
 ### Composants ayant un lien avec le déplacement du drone :
+La phase la plus technique dans ce projet est le déplacement du sous-marin car en plus de la réception des données de la télécommande redio, il faut adapter les données récupérées en données fiables pour contrôler convenablement nos moteurs. 
+
+Nous avons 2 types de moteurs : 
+- 4 moteurs pas-à-pas **17HS08-1004S** commandé à l'aide d'un driver moteur **A4988-1182** par la Raspberry Pi 4B.
+- 1 moteur à courant continu de la marque **lichifit** (utilisé dans le modélisme naval) commandé à l'aide d'un driver moteur **DRV8838** également par la Raspberry Pi 4B.
+
+Les moteurs pas-à-pas seront utilisé pour des mouvements plus précis tels que les mouvements translatifs lattéraux et de profondeur et pour les mouvement rotatifs (lacet et tangage).    
+Le moteur à courant continu sera quant-à lui utilisé uniquement pour la translation avant-arrière et sera notre propulseur principal.
+
 ### Composants ayant un lien avec la récupération de données (capteurs) :
 ### Composants autres :
 
