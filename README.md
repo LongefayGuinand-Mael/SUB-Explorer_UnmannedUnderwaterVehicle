@@ -59,9 +59,8 @@ son déplacement dans l’espace et des éléments scientifiques qu’il embarqu
 
 ### Schéma Bloc Fonctionnel du Projet :
 
-//////// IMAGE ////////
+<img width="949" alt="SchémaBlocFonctionel" src="https://user-images.githubusercontent.com/80823327/229297224-abcfcb5b-b0a2-4196-a7e3-12d45499c083.png">
 
-*Pour une meilleure qualité, l'image est trouvable dans les fichiers du projet (à la racine). Son nom étant : `SchémaBlocFonctionnel.png`.*
 
 <a name="choix-composants"></a>
 ------------------------------------------------------
@@ -75,6 +74,7 @@ son déplacement dans l’espace et des éléments scientifiques qu’il embarqu
 ### Composants ayant un lien avec la récupération de données (capteurs) :
 ### Composants autres :
 
+
 <a name="schémas-électroniques"></a>
 ------------------------------------------------------
 
@@ -83,7 +83,8 @@ son déplacement dans l’espace et des éléments scientifiques qu’il embarqu
 
 //////// BLABLA + IMAGES ////////
 
-*_À Noter :_Les fichiers Fusion360 ayants permis de faire les schémas électroniques ainsi que les PCB sont trouvables dans les fichiers du projet dans le dossier `/SchémasÉlectroniques+PCB/FichiersFusion`.*
+***À Noter :*** *Les fichiers Fusion360 ayants permis de faire les schémas électroniques ainsi que les PCB sont trouvables dans les fichiers du projet dans le dossier `/SchémasÉlectroniques+PCB/FichiersFusion`.*
+
 
 <a name="pcb"></a>
 ------------------------------------------------------
@@ -93,7 +94,8 @@ son déplacement dans l’espace et des éléments scientifiques qu’il embarqu
 
 //////// BLABLA ////////
 
-*_Rappel :_ Les fichiers Fusion360 ayants permis de faire les schémas électroniques ainsi que les PCB sont trouvables dans les fichiers du projet dans le dossier `/SchémasÉlectroniques+PCB/FichiersFusion`.*
+***Rappel :*** *Les fichiers Fusion360 ayants permis de faire les schémas électroniques ainsi que les PCB sont trouvables dans les fichiers du projet dans le dossier `/SchémasÉlectroniques+PCB/FichiersFusion`.*
+
 
 <a name="programmation"></a>
 ------------------------------------------------------
@@ -109,15 +111,16 @@ son déplacement dans l’espace et des éléments scientifiques qu’il embarqu
 ## Modélisation Structurelle du Drone :
 Voici une image de l'assemblage total des pièces imprimées en 3D de notre drone : 
 
-//////// IMAGE ////////
+![UUV](https://user-images.githubusercontent.com/80823327/229297162-fc86d0dc-1c18-4dbe-95bb-5cfa39f9e808.png)
 
-*Pour une meilleure qualité, l’image de l'assemblage de la modélisation structurelle du drone sont trouvables dans les fichiers du projet (au niveau de la racine). Son nom étant : `Assemblage3D.png`.*
-*Concernant les fichiers 3D de chacune des pièces ainsi que de l'assemblage, ces fichiers sont trouvables dans les fichiers du projet dans le dossier `/Modélisation3D`.*
+*Pour une meilleure qualité, l’image de l'assemblage de la modélisation structurelle du drone sont trouvables dans les fichiers du projet (au niveau de la racine). Son nom étant : `Assemblage3D.png`.*   
 
 
-Voici également une vidéo montrant l'ordre assemblage des quelques 28 pièces (*vis non-incluses*) composants notre sous-marin : 
+Voici également une vidéo montrant l'**ordre assemblage des quelques 28 pièces (_vis non-incluses_)** composants notre sous-marin : 
 
 https://user-images.githubusercontent.com/80823327/229296633-9bad1075-d35f-4a4c-87c2-66e0a59497dc.mp4
+   
+**Concernant les fichiers 3D de chacune des pièces ainsi que de l'assemblage, ces fichiers sont trouvables dans les fichiers du projet dans le dossier `/Modélisation3D`.**
 
 
 <a name="contacts"></a>
