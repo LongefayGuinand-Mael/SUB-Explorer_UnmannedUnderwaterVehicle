@@ -1,16 +1,20 @@
 <br>
-<p align="center">
-    <h1 align="center">:warning:   WARNING   :warning:  </h1>
-</p>
-<p align="center">
-    This project was made in French only for an Academic Work. So please consider that whole project files names, reports and other are only in French.
-    This project was made during our last year in the ESME Sudria Engineering School between October 2022 and March 2023.
-</p>
+	<p align="center">
+		<h1 align="center"> :warning:   WARNING   :warning: </h1>
+	</p>
+	<p align="center">
+		This project was made in French only for an Academic Work. So please consider that whole project files names, reports and other are only in French.
+		This project was made during our last year in the ESME Sudria Engineering School between October 2022 and March 2023.
+	</p>
 <br>
 
 
 ------------------------------------------------------
-# Unmanned Underwater Vehicle - Sub-Explorer
+<br>
+	<p align="center">
+	    <h1 align="center">Unmanned Underwater Vehicle - Sub-Explorer</h1>
+	</p>
+</br>
 Dans le cadre de notre dernière année academic d'ingénierie à l'ESME Sudria (Master 2), mon groupe et moi-même avons travaillé pendant une durée de 6 mois sur un drone sous-marin ayant pour objectif principal la recherche scientifique. Dans le cadre de notre projet, nous avons mis en place diverses choses afin de mener à bien cet objectif et nous sommes arrivé à un résultat très concluant.
 
 _Ce projet c'est principalement articulé avec les parties suivantes :_
