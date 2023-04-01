@@ -41,9 +41,12 @@ _Ce projet c'est principalement articulé avec les parties suivantes :_
 <a name="cahier-des-charges"></a>
 ------------------------------------------------------
 
+<br>
+	<p align="center">
+	    <h2 align="center">Définition du Cahier des Charges</h2>
+	</p>
+</br>
 
-
-## Définition du Cahier des Charges :
 ### Introduction :
 Notre objectif principal est de mettre au point un système de pilotage efficace pour notre drone sous-marin, en veillant à sa motorisation directionnelle et à sa radiocommunication. Nous prévoyons également d'intégrer des outils scientifiques à notre plateforme, ainsi que de travailler sur l'optimisation de son design. En somme, ce projet est l'opportunité pour nous de mettre en pratique nos connaissances en matière de systèmes embarqués, tout en nous confrontant à des défis technologiques passionnants.
 Dans le cadre de ce projet, nous mettons d’abord la priorité sur le pilotage de la plateforme (motorisation directionnelle, radiocommunication). Les outils scientifiques et l’optimisation du design seront vus dans un second temps.
@@ -76,7 +79,12 @@ son déplacement dans l’espace et des éléments scientifiques qu’il embarqu
 <a name="choix-composants"></a>
 ------------------------------------------------------
 
-## Choix des Composants :
+<br>
+	<p align="center">
+	    <h2 align="center">Choix des Composants</h2>
+	</p>
+</br>
+
 *Toutes les datasheets des composants utilisés sont regroupées dans les fichiers du projet dans le dossier `/DatasheetsComposents`. Leurs noms étants : `SchémaÉlectroniqueRaspPi4B.png` et  `SchémaÉlectroniqueRaspPi3B+.png`.*
 
 ### Intelligences Numériques :
@@ -109,7 +117,12 @@ Le moteur à courant continu sera quant-à lui utilisé uniquement pour la trans
 <a name="schémas-électroniques"></a>
 ------------------------------------------------------
 
-## Schémas Électroniques :
+<br>
+	<p align="center">
+	    <h2 align="center">Schémas Électroniques</h2>
+	</p>
+</br>
+
 *Pour une meilleure qualité, les images des schémas électroniques sont trouvables dans les fichiers du projet dans le dossier `/SchémasÉlectroniques+PCB`) Leurs noms étants : `SchémaÉlectroniqueRaspPi4B.png` et  `SchémaÉlectroniqueRaspPi3B+.png`.*
 
 //////// BLABLA + IMAGES ////////
@@ -120,7 +133,12 @@ Le moteur à courant continu sera quant-à lui utilisé uniquement pour la trans
 <a name="pcb"></a>
 ------------------------------------------------------
 
-## Réalisation des Printed Circuit Board (PCB) :
+<br>
+	<p align="center">
+	    <h2 align="center">Réalisation des Printed Circuit Board (PCB)</h2>
+	</p>
+</br>
+
 *Fichiers de conception des PCB sont trouvables dans les fichiers du projet dans le dossier `/SchémasÉlectroniques+PCB/FichiersConceptionPCB`. Un dossier regroupe les fichiers utiles par un fabriquant de PCB pour faire celui de la Raspberry Pi 3B+ et un autre dossier est pour celui de la Raspberry Pi 4B.*
 
 //////// BLABLA ////////
@@ -131,7 +149,12 @@ Le moteur à courant continu sera quant-à lui utilisé uniquement pour la trans
 <a name="programmation"></a>
 ------------------------------------------------------
 
-## Programmation (Python) :
+<br>
+	<p align="center">
+	    <h2 align="center">Programmation (Python)</h2>
+	</p>
+</br>
+
 *Tous les fichiers de programmation sont regroupées dans les fichiers du projet dans le dossier `/Programmation/Code`.*
 
 //////// BLABLA + IMAGE LOGIGRAMMES + BLABLA ////////
@@ -139,7 +162,12 @@ Le moteur à courant continu sera quant-à lui utilisé uniquement pour la trans
 <a name="modélisation-3d"></a>
 ------------------------------------------------------
 
-## Modélisation Structurelle du Drone :
+<br>
+	<p align="center">
+	    <h2 align="center">Modélisation Structurelle du Drone</h2>
+	</p>
+</br>
+
 Voici une image de l'assemblage total des pièces imprimées en 3D de notre drone : 
 
 ![UUV](https://user-images.githubusercontent.com/80823327/229297162-fc86d0dc-1c18-4dbe-95bb-5cfa39f9e808.png)
@@ -157,7 +185,12 @@ https://user-images.githubusercontent.com/80823327/229296633-9bad1075-d35f-4a4c-
 <a name="contacts"></a>
 ------------------------------------------------------
 
-## Noms et Contacts :
+<br>
+	<p align="center">
+	    <h2 align="center">Noms et Contacts</h2>
+	</p>
+</br>
+
 [![Linkedin Badge](https://img.shields.io/badge/M._LONGEFAY_Mael-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mael-longefay-guinand/)
 [![Linkedin Badge](https://img.shields.io/badge/M._PIOT_Fabien-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fabien-piot/) 
 [![Linkedin Badge](https://img.shields.io/badge/M._POPESCO_Jules-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jules-popesco/) 
