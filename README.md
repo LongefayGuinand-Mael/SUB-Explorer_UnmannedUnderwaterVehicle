@@ -115,23 +115,18 @@ Voici une image de l'assemblage total des pièces imprimées en 3D de notre dron
 *Concernant les fichiers 3D de chacune des pièces ainsi que de l'assemblage, ces fichiers sont trouvables dans les fichiers du projet dans le dossier `/Modélisation3D`.*
 
 
-Voici également une vidéo montrant l'ordre assemblage/désassemblage des quelques 30 pièces (*vis non-incluses*) composants notre sous-marin : 
+Voici également une vidéo montrant l'ordre assemblage des quelques 28 pièces (*vis non-incluses*) composants notre sous-marin : 
 
-//////// VIDEO/GIF ////////
-<div align="center">
-	![](https://github.com/LongefayGuinand-Mael/SUB-Explorer_UnmannedUnderwaterVehicle/VidéoAssemblage3D.gif)
-</div> 
-
-*Pour une meilleure qualité, la vidéo de l'assemblage de la modélisation structurelle du drone est trouvable dans les fichiers du projet (au niveau de la racine). Son nom étant : `VidéoAssemblage3D.mp4`.*
+https://user-images.githubusercontent.com/80823327/229296633-9bad1075-d35f-4a4c-87c2-66e0a59497dc.mp4
 
 
 <a name="contacts"></a>
 ------------------------------------------------------
 
 ## Noms et Contacts :
-[![Linkedin Badge](https://img.shields.io/badge/M._PIOT_Fabien-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fabien-piot/)   
-[![Linkedin Badge](https://img.shields.io/badge/M._POPESCO_Jules-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jules-popesco/)   
-[![Linkedin Badge](https://img.shields.io/badge/M._LONGEFAY_Mael-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mael-longefay-guinand/)   
+[![Linkedin Badge](https://img.shields.io/badge/M._LONGEFAY_Mael-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mael-longefay-guinand/)
+[![Linkedin Badge](https://img.shields.io/badge/M._PIOT_Fabien-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fabien-piot/) 
+[![Linkedin Badge](https://img.shields.io/badge/M._POPESCO_Jules-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jules-popesco/) 
 
 -------------------------------------
 -------------------------------------
