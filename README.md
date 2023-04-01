@@ -15,16 +15,16 @@
 	    <h1 align="center">Unmanned Underwater Vehicle - Sub-Explorer</h1>
 	</p>
 </br>
-Dans le cadre de notre dernière année academic d'ingénierie à l'ESME Sudria (Master 2), mon groupe et moi-même avons travaillé pendant une durée de 6 mois sur un drone sous-marin ayant pour objectif principal la recherche scientifique. Dans le cadre de notre projet, nous avons mis en place diverses choses afin de mener à bien cet objectif et nous sommes arrivé à un résultat très concluant.
+Dans le cadre de notre dernière année academic d'ingénierie à l'ESME Sudria (Master 2), mon groupe et moi-même avons travaillé pendant une durée de 6 mois sur un drone sous-marin ayant pour objectif principal la recherche scientifique. Dans le cadre de notre projet, nous avons mis en place diverses choses afin de mener à bien cet objectif et nous sommes arrivé à un résultat très concluant.   
 
-_Ce projet c'est principalement articulé avec les parties suivantes :_
-	- Définition du Cahier des charges 
-	- Veille technologique :
-		- Recherche des Composants
-		- Mise en place d'un schéma électrique
-		- Réalisation des Printed Circuit Board
-	- Programmation (Python)
-	- Modélisation structurelle 3D du drone
+Ce projet c'est principalement articulé avec les parties suivantes :
+- Définition du Cahier des charges 
+- Veille technologique :
+	- Recherche des Composants
+	- Mise en place d'un schéma électrique
+	- Réalisation des Printed Circuit Board
+- Programmation (Python)
+- Modélisation structurelle 3D du drone   
 *Les autres parties (moins techniques) sont trouvables dans le rapport complet de notre projet de fin d'études.*
 
 ------------------------------------------------------
