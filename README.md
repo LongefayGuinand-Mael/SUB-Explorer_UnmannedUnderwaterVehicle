@@ -4,7 +4,7 @@
 </p>
 <p align="center">
     This project was made in French only for an Academic Work. So please consider that whole project files names, reports and other are only in French.
-    This project was made during my last year in the ESME Sudria Engineering School between October 2022 and March 2023.
+    This project was made during our last year in the ESME Sudria Engineering School between October 2022 and March 2023.
 </p>
 <br>
 
