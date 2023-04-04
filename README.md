@@ -100,7 +100,7 @@ son déplacement dans l’espace et des éléments scientifiques qu’il embarqu
 	</p>
 </br>
 
-*Toutes les datasheets des composants utilisés sont regroupées dans les fichiers du projet dans le dossier `/DatasheetsComposents`. Leurs noms étants : `SchémaÉlectroniqueRaspPi4B.png` et  `SchémaÉlectroniqueRaspPi3B+.png`.*
+*Toutes les datasheets des composants utilisés sont regroupées dans les fichiers du projet dans le dossier `/DatasheetsComposents`.*
 
 ### Intelligences Numériques :
 Nous utilisons dans ce projet 2 Raspberry Pi.   
