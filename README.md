@@ -9,6 +9,9 @@
 <br>
 
 
+
+
+
 ------------------------------------------------------
 <br>
 	<p align="center">
@@ -27,6 +30,10 @@ Ce projet c'est principalement articulé avec les parties suivantes :
 - Modélisation structurelle 3D du drone   
 *Les autres parties (moins techniques) sont trouvables dans le rapport complet de notre projet de fin d'études.*
 
+
+
+
+
 ------------------------------------------------------
 
 ### Sommaire :
@@ -37,6 +44,10 @@ Ce projet c'est principalement articulé avec les parties suivantes :
 5. [Programmation](#programmation)
 6. [Modélisation structurelle du drone](#modélisation-3d)
 7. [Noms et Contacts des étudiants ayant travaillé sur le projet](#contacts)
+
+
+
+
 
 <a name="cahier-des-charges"></a>
 ------------------------------------------------------
@@ -76,6 +87,9 @@ son déplacement dans l’espace et des éléments scientifiques qu’il embarqu
 <img width="949" alt="SchémaBlocFonctionel" src="https://user-images.githubusercontent.com/80823327/229297224-abcfcb5b-b0a2-4196-a7e3-12d45499c083.png">
 
 
+
+
+
 <a name="choix-composants"></a>
 ------------------------------------------------------
 
@@ -112,8 +126,12 @@ Le moteur à courant continu sera quant-à lui utilisé uniquement pour la trans
 
 ### Composants ayant un lien avec la récupération de données (capteurs) :
 *//////// BLABLA ////////*
+
 ### Composants autres :
 *//////// BLABLA ////////*
+
+
+
 
 
 <a name="schémas-électroniques"></a>
@@ -132,6 +150,9 @@ Le moteur à courant continu sera quant-à lui utilisé uniquement pour la trans
 ***À Noter :*** *Les fichiers Fusion360 ayants permis de faire les schémas électroniques ainsi que les PCB sont trouvables dans les fichiers du projet dans le dossier `/SchémasÉlectroniques+PCB/FichiersFusion`.*
 
 
+
+
+
 <a name="pcb"></a>
 ------------------------------------------------------
 
@@ -146,6 +167,9 @@ Le moteur à courant continu sera quant-à lui utilisé uniquement pour la trans
 *//////// BLABLA ////////*
 
 ***Rappel :*** *Les fichiers Fusion360 ayants permis de faire les schémas électroniques ainsi que les PCB sont trouvables dans les fichiers du projet dans le dossier `/SchémasÉlectroniques+PCB/FichiersFusion`.*
+
+
+
 
 
 <a name="programmation"></a>
@@ -174,6 +198,9 @@ Nous pouvons retrouver 2 étapes, l'initialisation et le fonctionnement. L'initi
 Tout comme pour la Raspberry Pi 3B+, nous pouvons y voir qu'il y a 2 étapes dans ce logigramme, l'initialisation et le fonctionnement en temps-réel avec la mise en place d'un multi-thread ce qui équivaut à l'utilisation de plusieurs coeurs du processeur de la Raspberry Pi 4B qui se charge de ce code. *On peut également retrouver le programme de récupération des données réceptionnées depuis la télécommande radio sur le logigramme `Logigramme Pi4B (2) - SUB-Explorer.png` mit dans le fichier `/Programmation/LogigrammesExplicatifs/`.*
 
 
+
+
+
 <a name="modélisation-3d"></a>
 ------------------------------------------------------
 
@@ -197,6 +224,9 @@ https://user-images.githubusercontent.com/80823327/229296633-9bad1075-d35f-4a4c-
 **Concernant les fichiers 3D de chacune des pièces ainsi que de l'assemblage, ces fichiers sont trouvables dans les fichiers du projet dans le dossier `/Modélisation3D`.**
 
 
+
+
+
 <a name="contacts"></a>
 ------------------------------------------------------
 
@@ -209,6 +239,9 @@ https://user-images.githubusercontent.com/80823327/229296633-9bad1075-d35f-4a4c-
 [![Linkedin Badge](https://img.shields.io/badge/M._LONGEFAY_Mael-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mael-longefay-guinand/)
 [![Linkedin Badge](https://img.shields.io/badge/M._PIOT_Fabien-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fabien-piot/) 
 [![Linkedin Badge](https://img.shields.io/badge/M._POPESCO_Jules-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jules-popesco/) 
+
+
+
 
 -------------------------------------
 -------------------------------------
