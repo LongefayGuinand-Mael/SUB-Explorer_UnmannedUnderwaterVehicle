@@ -111,7 +111,9 @@ Les moteurs pas-à-pas seront utilisés pour des mouvements plus précis tels qu
 Le moteur à courant continu sera quant-à lui utilisé uniquement pour la translation avant-arrière et sera notre propulseur principal.
 
 ### Composants ayant un lien avec la récupération de données (capteurs) :
+*//////// BLABLA ////////*
 ### Composants autres :
+*//////// BLABLA ////////*
 
 
 <a name="schémas-électroniques"></a>
@@ -125,7 +127,7 @@ Le moteur à courant continu sera quant-à lui utilisé uniquement pour la trans
 
 *Pour une meilleure qualité, les images des schémas électroniques sont trouvables dans les fichiers du projet dans le dossier `/SchémasÉlectroniques+PCB`) Leurs noms étants : `SchémaÉlectroniqueRaspPi4B.png` et  `SchémaÉlectroniqueRaspPi3B+.png`.*
 
-//////// BLABLA + IMAGES ////////
+*//////// BLABLA + IMAGES ////////*
 
 ***À Noter :*** *Les fichiers Fusion360 ayants permis de faire les schémas électroniques ainsi que les PCB sont trouvables dans les fichiers du projet dans le dossier `/SchémasÉlectroniques+PCB/FichiersFusion`.*
 
@@ -141,7 +143,7 @@ Le moteur à courant continu sera quant-à lui utilisé uniquement pour la trans
 
 *Fichiers de conception des PCB sont trouvables dans les fichiers du projet dans le dossier `/SchémasÉlectroniques+PCB/FichiersConceptionPCB`. Un dossier regroupe les fichiers utiles par un fabriquant de PCB pour faire celui de la Raspberry Pi 3B+ et un autre dossier est pour celui de la Raspberry Pi 4B.*
 
-//////// BLABLA ////////
+*//////// BLABLA ////////*
 
 ***Rappel :*** *Les fichiers Fusion360 ayants permis de faire les schémas électroniques ainsi que les PCB sont trouvables dans les fichiers du projet dans le dossier `/SchémasÉlectroniques+PCB/FichiersFusion`.*
 
