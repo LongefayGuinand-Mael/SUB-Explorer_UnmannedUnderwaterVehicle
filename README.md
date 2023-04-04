@@ -126,10 +126,20 @@ Les moteurs pas-à-pas seront utilisés pour des mouvements plus précis tels qu
 Le moteur à courant continu sera quant-à lui utilisé uniquement pour la translation avant-arrière et sera notre propulseur principal.
 
 ### Composants ayant un lien avec la récupération de données (capteurs) :
-*//////// BLABLA ////////*
+Dans notre sous-marin, nous souhaiton à minima pouvoir récupérer deux données, la température et la pression. 
+
+Pour le capteur de température, nous avons choisi le capteur **DS18B20**. Le choix de ce composant à été assez intuitif puisque celui-ci ressemble à une sonde, il est étanche et à une plage d'utilisation large avec une précision de 0.0625°C.
+
+Pour le capteur de pression, nous avons choisi le capteur **MS5837-30BA**. Ce capteur fonctionne en I²C, il est étanche et a une plage de fonctionnement allant jusqu'à 30 bar (jusqu'à 290m de profondeur dans l'eau) avec une précision de 0.2mBar (soit ±2mm).
+
+À l'avenir, nous imaginons pouvoir rajouter des capteurs tels que celui de salénité de l'eau et de pollution maritime ou encore un capteur de tangage pour la stabilisation du drone.
 
 ### Composants autres :
-*//////// BLABLA ////////*
+Les autres composants sont divers. 
+
+Nous avons ici un convertisseur Buck-Boost **DFR0753** afin de pouvoir allimenter d'une tension de 5V les 2 Raspberry Pi mais d'une tension de 9V les différents moteurs et le bandeau LED.
+
+En parlant du **bandeau LED**, nous avons imaginé embarquer des LED dans le sous-marin afin de permettre de les activer ou non pour pouvoir, en toutes circonstances et sur demande de l'utilisateur, de voir l'environnement de travail du drone sous-marin qu'il soit visible depuis la surface ou pas. Le bandeau LED est un bandeau LED unicolore blanc, certifié IP67 (étanche poussière et eau), et qui peut être allimenté jusqu'à 12V. Nous l'utilisons avec une tension d'allimentation de 9V largement suffisante pour nous.
 
 
 
