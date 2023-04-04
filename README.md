@@ -13,6 +13,7 @@
 
 
 ------------------------------------------------------
+
 <br>
 	<p align="center">
 	    <h1 align="center">Unmanned Underwater Vehicle - Sub-Explorer</h1>
@@ -164,7 +165,9 @@ Le moteur à courant continu sera quant-à lui utilisé uniquement pour la trans
 
 *Fichiers de conception des PCB sont trouvables dans les fichiers du projet dans le dossier `/SchémasÉlectroniques+PCB/FichiersConceptionPCB`. Un dossier regroupe les fichiers utiles par un fabriquant de PCB pour faire celui de la Raspberry Pi 3B+ et un autre dossier est pour celui de la Raspberry Pi 4B.*
 
-*//////// BLABLA ////////*
+Cette partie ne pourra pas être beaucoup développée à l'écrit. Pour faire au plus simple, suite à la mise en place de nos 2 schémas électroniques, nous avons pu mettre en place 2 PCB qui seront utilisés pour notre projet (un pour chacune des intelligences électroniques). Sur le PCB de la Raspberry Pi 3B+ on peut y retrouver les branchements des différents capteurs tandis que sur le PCB de la Raspberry Pi 4B on y retrouve tous les composants utiles pour la réceptions des commandes de l'utilisateurs et les différents systèmes et branchements pour les moteurs et bandeau LED (en outre, tout ce qui est contrôllable par l'utilisateur à distance). 
+
+La seconde chose importante mise en place est la définition de contraintes de dimentionnement afin de permettre aux 2 PCB de se brancher directement sur les Raspberry Pi. Ces contraintes sont principalement liée aux composants internes des Raspberry Pi et leurs hauteurs qui peuvent être génantes (dans les grandes lignes, ça regroupe les composants tels que celle du port éthernet, des ports USB, port de branchement caméra, port Jack et HDMI).
 
 ***Rappel :*** *Les fichiers Fusion360 ayants permis de faire les schémas électroniques ainsi que les PCB sont trouvables dans les fichiers du projet dans le dossier `/SchémasÉlectroniques+PCB/FichiersFusion`.*
 
