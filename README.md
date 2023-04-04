@@ -271,5 +271,5 @@ https://user-images.githubusercontent.com/80823327/229296633-9bad1075-d35f-4a4c-
 -------------------------------------
 -------------------------------------
 ## License
-***© COPYRIGHT - All Rights Reserved - LONGEFAY-PIOT-POPESCO***  
+***© COPYRIGHT - All Rights Reserved - Zapata Industry (LONGEFAY-PIOT-POPESCO)***  
 ***Important :*** *Afin de poursuivre le projet, merci de nous contacter sur LinkedIn pour avoir notre approbation.*
