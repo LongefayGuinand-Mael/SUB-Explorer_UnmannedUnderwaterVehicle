@@ -139,7 +139,7 @@ Les autres composants sont divers.
 
 Nous avons ici un convertisseur Buck-Boost **DFR0753** afin de pouvoir allimenter d'une tension de 5V les 2 Raspberry Pi mais d'une tension de 9V les différents moteurs et le bandeau LED.
 
-En parlant du **bandeau LED**, nous avons imaginé embarquer des LED dans le sous-marin afin de permettre de les activer ou non pour pouvoir, en toutes circonstances et sur demande de l'utilisateur, de voir l'environnement de travail du drone sous-marin qu'il soit visible depuis la surface ou pas. Le bandeau LED est un bandeau LED unicolore blanc, certifié IP67 (étanche poussière et eau), et qui peut être allimenté jusqu'à 12V. Nous l'utilisons avec une tension d'allimentation de 9V largement suffisante pour nous.
+En parlant du **bandeau LED**, nous avons imaginé embarquer des LED dans le sous-marin afin de permettre de les activer ou non pour pouvoir, en toutes circonstances et sur demande de l'utilisateur, de voir l'environnement de travail du drone sous-marin qu'il soit visible depuis la surface ou pas. Le bandeau LED est unicolore blanc, certifié IP67 (étanche poussière et eau), et peut être allimenté jusqu'à 12V. Nous l'utilisons avec une tension d'allimentation de 9V largement suffisante pour nous.
 
 
 
