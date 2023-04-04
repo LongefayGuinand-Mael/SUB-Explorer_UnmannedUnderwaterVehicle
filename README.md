@@ -155,9 +155,22 @@ Le moteur à courant continu sera quant-à lui utilisé uniquement pour la trans
 	</p>
 </br>
 
-*Tous les fichiers de programmation sont regroupées dans les fichiers du projet dans le dossier `/Programmation/Code`.*
+*Tous les fichiers de programmation sont regroupées dans les fichiers du projet dans le dossier `/Programmation/Code`. Dans ce dossier on peut y retrouver les codes en Python (`.py`) ainsi que des logigrammes des programmes (au format `.png`).* 
 
-//////// BLABLA + IMAGE LOGIGRAMMES + BLABLA ////////
+Pour commencer, nous avons 2 intelligences numériques (1 Raspberry Pi 3B+ & 1 Raspberry Pi 4B) qui vont fonctionner simultannément mais de manière totalement distincte l'une de l'autre. Ainsi, nous exposons ci-dessous les logigrammes des programmes des 2 intelligences numériques : 
+
+### Raspberry Pi 3B+ :
+
+<img width="936" alt="Logigramme Raspberry Pi 3B+ - SUB-Explorer" src="https://user-images.githubusercontent.com/80823327/229874723-092826c4-6eda-41ee-9172-262b14647ec6.png">
+
+Nous pouvons retrouver 2 étapes, l'initialisation et le fonctionnement. L'initialisation nous permet d'instancier les divers pins de la Raspberry que nous utilisons par la suite dans notre code ainsi que les multiples librairies utilisées. La phase de fonctionnement permet l'hébergement et l'envoie du stream de la caméra embarquée sur le WebServeur local de la Raspberry Pi 3B+. Il sera possible par la suite de créer un multi-thread afin de pouvoir récupérer en parallèle du WebServeur des données de capteurs pour les ajouter au retour caméra sur la page Web hébergée (*un début de code dans ce sens est retrouvable sous le nom `TempPrint_CameraWebLocal.py`*).
+
+### Raspberry Pi 4B :
+
+![Logigramme Pi4B (1) - SUB-Explorer](https://user-images.githubusercontent.com/80823327/229874655-cd82081b-62a3-4f2f-bb31-14f6707dc589.png)
+
+Tout comme pour la Raspberry Pi 3B+, nous pouvons y voir qu'il y a 2 étapes dans ce logigramme, l'initialisation et le fonctionnement en temps-réel avec la mise en place d'un multi-thread ce qui équivaut à l'utilisation de plusieurs coeurs du processeur de la Raspberry Pi 4B qui se charge de ce code. *On peut également retrouver le programme de récupération des données réceptionnées depuis la télécommande radio sur le logigramme `Logigramme Pi4B (2) - SUB-Explorer.png` mit dans le fichier `/Programmation/LogigrammesExplicatifs/`.*
+
 
 <a name="modélisation-3d"></a>
 ------------------------------------------------------
