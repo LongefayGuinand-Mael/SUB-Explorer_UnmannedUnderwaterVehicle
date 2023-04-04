@@ -144,9 +144,21 @@ Le moteur à courant continu sera quant-à lui utilisé uniquement pour la trans
 	</p>
 </br>
 
-*Pour une meilleure qualité, les images des schémas électroniques sont trouvables dans les fichiers du projet dans le dossier `/SchémasÉlectroniques+PCB`) Leurs noms étants : `SchémaÉlectroniqueRaspPi4B.png` et  `SchémaÉlectroniqueRaspPi3B+.png`.*
+*Pour une meilleure qualité, les images des schémas électroniques sont trouvables dans les fichiers du projet dans le dossier `/SchémasÉlectroniques+PCB`) Leurs noms étants : `Schéma Électronique - Raspberry Pi 3B+.png` et `Schéma Électronique - Raspberry Pi 4B.png`.*
 
-*//////// BLABLA + IMAGES ////////*
+Après l'analyse de tous les composants, nous avons mis en place 2 schémas électroniques. L'un concerne la Raspberry Pi 3B+ et l'autre la Raspberry Pi 4B.
+
+### Partie Raspberry Pi 3B+ :
+
+Pour cette partie, nous retrouvons dans le schéma électronique les capteurs de température et de pression. Il est à noté également que nous avons de géré par cette Raspberry Pi la caméra embarquée.
+
+<img width="789" alt="Schéma Électronique - Raspberry Pi 3B+" src="https://user-images.githubusercontent.com/80823327/229891498-533df845-b693-444f-bc66-fd88b1f937c3.png">
+
+### Partie Raspberry Pi 4B :
+
+Pour cette partie, nous retrouvons dans le schéma électronique les 4 moteurs pas-à-pas ainsi que leurs drivers respectifs, le moteur à courant continu et son driver, le bandeau LED, le récepteur 2.4GHz et des pins de branchement pour le convertisseur Buck-Boost (9V à 5V). 
+
+<img width="869" alt="Schéma Électronique - Raspberry Pi 4B" src="https://user-images.githubusercontent.com/80823327/229891526-37f326ff-b1fe-45c6-b2dd-10d3bc880dd1.png">
 
 ***À Noter :*** *Les fichiers Fusion360 ayants permis de faire les schémas électroniques ainsi que les PCB sont trouvables dans les fichiers du projet dans le dossier `/SchémasÉlectroniques+PCB/FichiersFusion`.*
 
@@ -188,13 +200,13 @@ La seconde chose importante mise en place est la définition de contraintes de d
 
 Pour commencer, nous avons 2 intelligences numériques (1 Raspberry Pi 3B+ & 1 Raspberry Pi 4B) qui vont fonctionner simultannément mais de manière totalement distincte l'une de l'autre. Ainsi, nous exposons ci-dessous les logigrammes des programmes des 2 intelligences numériques : 
 
-### Raspberry Pi 3B+ :
+### Partie Raspberry Pi 3B+ :
 
 <img width="936" alt="Logigramme Raspberry Pi 3B+ - SUB-Explorer" src="https://user-images.githubusercontent.com/80823327/229874723-092826c4-6eda-41ee-9172-262b14647ec6.png">
 
 Nous pouvons retrouver 2 étapes, l'initialisation et le fonctionnement. L'initialisation nous permet d'instancier les divers pins de la Raspberry que nous utilisons par la suite dans notre code ainsi que les multiples librairies utilisées. La phase de fonctionnement permet l'hébergement et l'envoie du stream de la caméra embarquée sur le WebServeur local de la Raspberry Pi 3B+. Il sera possible par la suite de créer un multi-thread afin de pouvoir récupérer en parallèle du WebServeur des données de capteurs pour les ajouter au retour caméra sur la page Web hébergée (*un début de code dans ce sens est retrouvable sous le nom `TempPrint_CameraWebLocal.py`*).
 
-### Raspberry Pi 4B :
+### Partie Raspberry Pi 4B :
 
 ![Logigramme Pi4B (1) - SUB-Explorer](https://user-images.githubusercontent.com/80823327/229874655-cd82081b-62a3-4f2f-bb31-14f6707dc589.png)
 
