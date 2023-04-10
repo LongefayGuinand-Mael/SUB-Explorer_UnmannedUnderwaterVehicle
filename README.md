@@ -2,16 +2,17 @@
 	<p align="center">
 		<h1 align="center"> :warning:   WARNING   :warning: </h1>
 	</p>
-	<p align="center">
-		This project was made in French only for an Academic Work. So please consider that whole project files names, reports and other are only in French.
-		This project was made during our last year in the ESME Sudria Engineering School between October 2022 and March 2023.
-	</p>
 <br>
 
+This project was made in French only for an Academic Work. So please consider that whole project files names, reports and other are only in French. This project was made during our last year in the ESME Sudria Engineering School between October 2022 and March 2023. 
+
+Please note that this README.md is only a preface to all the work done during these 6 months of the project, if you wish to know more after reading this README, please refer to our report `/Rapports/Rapport Projet Drone Sous-Marin.pdf` (written in French).
 
 
 
 
+
+------------------------------------------------------
 ------------------------------------------------------
 
 <br>
@@ -19,7 +20,8 @@
 	    <h1 align="center">Unmanned Underwater Vehicle - Sub-Explorer</h1>
 	</p>
 </br>
-Dans le cadre de notre dernière année academic d'ingénierie à l'ESME Sudria (Master 2), mon groupe et moi-même avons travaillé pendant une durée de 6 mois sur un drone sous-marin ayant pour objectif principal la recherche scientifique. Dans le cadre de notre projet, nous avons mis en place diverses choses afin de mener à bien cet objectif et nous sommes arrivé à un résultat très concluant.   
+
+Dans le cadre de notre dernière année academic d'ingénierie à l'ESME Sudria (Master 2), mon groupe et moi-même avons travaillé pendant une durée de 6 mois sur un drone sous-marin ayant pour objectif principal la recherche scientifique. Dans le cadre de notre projet, nous avons mis en place diverses choses afin de mener à bien cet objectif et nous sommes arrivé à un résultat très concluant. Veuillez à noter que le README.md n'est qu'une préface à tout le travail effectué lors de ces 6 mois de projet, si vous avez pour souhait de d'en savoir plus après lecture de ce README, veuillez à vous référer à notre rapport `/Rapports/Rapport Projet Drone Sous-Marin.pdf`.
 
 Ce projet c'est principalement articulé avec les parties suivantes :
 - Définition du Cahier des charges 
@@ -60,7 +62,7 @@ Ce projet c'est principalement articulé avec les parties suivantes :
 </br>
 
 ### Introduction :
-Notre objectif principal est de mettre au point un système de pilotage efficace pour notre drone sous-marin, en veillant à sa motorisation directionnelle et à sa radiocommunication. Nous prévoyons également d'intégrer des outils scientifiques à notre plateforme, ainsi que de travailler sur l'optimisation de son design. En somme, ce projet est l'opportunité pour nous de mettre en pratique nos connaissances en matière de systèmes embarqués, tout en nous confrontant à des défis technologiques passionnants.
+Notre objectif est de concevoir un drone sous-marin dans son intégralité, allant de la définition du cahier des charges à sa conception électronique et  3D. Pour mettre à bien notre projet, l'objectif premier est de mettre au point un système de pilotage efficace pour notre drone sous-marin, en veillant à sa motorisation directionnelle, à sa radiocommunication et à son design 3D. Nous prévoyons également d'intégrer des outils scientifiques à notre plateforme, ainsi que de travailler sur une optimisation de son design. En somme, ce projet est l'opportunité pour nous de mettre en pratique nos connaissances en matière de systèmes embarqués, tout en nous confrontant à des défis technologiques passionnants.
 Dans le cadre de ce projet, nous mettons d’abord la priorité sur le pilotage de la plateforme (motorisation directionnelle, radiocommunication). Les outils scientifiques et l’optimisation du design seront vus dans un second temps.
 
 ### Fonctionnalités :
